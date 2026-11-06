@@ -4,8 +4,9 @@ An end-to-end machine learning project on Steam games: collect data from the Ste
 
 **Author:** Wissem Bahrouni
 
-<!-- Live demo: add the Streamlit badge here after deployment -->
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://steam-ml-dashboard-8ylerqy9appwvhyjm6yeuht.streamlit.app/)
 
+**Live demo:** [Steam ML Dashboard](https://steam-ml-dashboard-8ylerqy9appwvhyjm6yeuht.streamlit.app/)
 ![Analytics dashboard](assets/dashboard.png)
 
 ## Features
