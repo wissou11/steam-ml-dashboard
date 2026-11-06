@@ -1,0 +1,142 @@
+{
+  "price": {
+    "best_model": "Gradient Boosting",
+    "n_games": 232,
+    "n_features": 18,
+    "models": {
+      "Linear Regression": {
+        "test_r2": 0.4546,
+        "train_r2": 0.5304,
+        "test_rmse": 14.0624,
+        "test_mae": 10.4129,
+        "cv_r2_mean": 0.4131,
+        "cv_r2_std": 0.1259,
+        "cv_mae_mean": 11.256
+      },
+      "Ridge Regression": {
+        "test_r2": 0.4573,
+        "train_r2": 0.5303,
+        "test_rmse": 14.0272,
+        "test_mae": 10.4023,
+        "cv_r2_mean": 0.416,
+        "cv_r2_std": 0.1242,
+        "cv_mae_mean": 11.223
+      },
+      "Lasso Regression": {
+        "test_r2": 0.4682,
+        "train_r2": 0.5286,
+        "test_rmse": 13.8862,
+        "test_mae": 10.3693,
+        "cv_r2_mean": 0.4229,
+        "cv_r2_std": 0.1221,
+        "cv_mae_mean": 11.1421
+      },
+      "ElasticNet": {
+        "test_r2": 0.471,
+        "train_r2": 0.5241,
+        "test_rmse": 13.8487,
+        "test_mae": 10.4463,
+        "cv_r2_mean": 0.4265,
+        "cv_r2_std": 0.1145,
+        "cv_mae_mean": 11.1208
+      },
+      "Decision Tree": {
+        "test_r2": 0.3485,
+        "train_r2": 0.6863,
+        "test_rmse": 15.369,
+        "test_mae": 9.0912,
+        "cv_r2_mean": 0.3835,
+        "cv_r2_std": 0.1693,
+        "cv_mae_mean": 10.1919
+      },
+      "Random Forest": {
+        "test_r2": 0.5297,
+        "train_r2": 0.6597,
+        "test_rmse": 13.0577,
+        "test_mae": 9.3224,
+        "cv_r2_mean": 0.4947,
+        "cv_r2_std": 0.1291,
+        "cv_mae_mean": 9.7276
+      },
+      "Gradient Boosting": {
+        "test_r2": 0.5884,
+        "train_r2": 0.9781,
+        "test_rmse": 12.2161,
+        "test_mae": 9.0016,
+        "cv_r2_mean": 0.5114,
+        "cv_r2_std": 0.1455,
+        "cv_mae_mean": 9.3151
+      },
+      "SVR": {
+        "test_r2": 0.3935,
+        "train_r2": 0.6683,
+        "test_rmse": 14.829,
+        "test_mae": 10.0536,
+        "cv_r2_mean": 0.4563,
+        "cv_r2_std": 0.084,
+        "cv_mae_mean": 10.2976
+      }
+    }
+  },
+  "sentiment": {
+    "best_model": "Linear SVM",
+    "n_reviews": 3944,
+    "models": {
+      "Logistic Regression": {
+        "test_accuracy": 0.8517,
+        "train_accuracy": 0.9353,
+        "test_precision": 0.8597,
+        "test_recall": 0.8401,
+        "test_f1": 0.8498,
+        "test_roc_auc": 0.9297,
+        "cv_f1_mean": 0.847,
+        "cv_f1_std": 0.013,
+        "unseen_game_cv_f1_mean": 0.8344
+      },
+      "Naive Bayes": {
+        "test_accuracy": 0.8416,
+        "train_accuracy": 0.9179,
+        "test_precision": 0.8568,
+        "test_recall": 0.8198,
+        "test_f1": 0.8379,
+        "test_roc_auc": 0.9311,
+        "cv_f1_mean": 0.841,
+        "cv_f1_std": 0.0087,
+        "unseen_game_cv_f1_mean": 0.826
+      },
+      "Linear SVM": {
+        "test_accuracy": 0.8517,
+        "train_accuracy": 0.9965,
+        "test_precision": 0.856,
+        "test_recall": 0.8452,
+        "test_f1": 0.8506,
+        "test_roc_auc": 0.9224,
+        "cv_f1_mean": 0.841,
+        "cv_f1_std": 0.0098,
+        "unseen_game_cv_f1_mean": 0.8204
+      },
+      "Random Forest": {
+        "test_accuracy": 0.8048,
+        "train_accuracy": 0.948,
+        "test_precision": 0.7985,
+        "test_recall": 0.8147,
+        "test_f1": 0.8065,
+        "test_roc_auc": 0.881,
+        "cv_f1_mean": 0.804,
+        "cv_f1_std": 0.013,
+        "unseen_game_cv_f1_mean": 0.7988
+      },
+      "Gradient Boosting": {
+        "test_accuracy": 0.7896,
+        "train_accuracy": 0.9436,
+        "test_precision": 0.7923,
+        "test_recall": 0.7843,
+        "test_f1": 0.7883,
+        "test_roc_auc": 0.8682,
+        "cv_f1_mean": 0.7894,
+        "cv_f1_std": 0.0113,
+        "unseen_game_cv_f1_mean": 0.7785
+      }
+    }
+  }
+}
